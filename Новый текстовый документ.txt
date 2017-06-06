@@ -1,0 +1,11 @@
+New(Element);
+  Element^.marka := Edit1.Text;
+  Element^.tip := Edit2.Text;
+  Element^.year := StrToInt(Edit3.Text);
+  Element^.color := Edit4.Text;
+  Element^.power := StrToInt(Edit5.Text);
+  Element^.mas1 := StrToInt(Edit6.Text);
+  Element^.mas2 := StrToInt(Edit7.Text);
+  Element^.id := StrToInt(Edit8.Text);
+  Element^.model := Edit9.Text;
+  Element^.Next :=nil;
